@@ -1,9 +1,9 @@
 import csv
 
-print 'make sure to use input.csv and remove.csv'
+print 'make sure to use file1.csv and file2.csv'
 
-data = csv.reader(open('input.csv', 'r'), delimiter = ',')
-remove = csv.reader(open('remove.csv', 'r'), delimiter = ',')
+data = csv.reader(open('file1.csv', 'r'), delimiter = ',')
+remove = csv.reader(open('file2.csv', 'r'), delimiter = ',')
 
 writer = csv.writer(open('output.csv', 'w'), delimiter=',')
 

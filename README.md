@@ -1,9 +1,14 @@
 #simple_python_csv_scripts
 
-##find_repeats.py
-use file1.csv and file2.csv as inputs
-after running find_repeats.py on file1.csv and file2.csv output.csv will contain all the duplicate lines.
-
-##remove_duplicates.py
-use file1.csv and file2.csv as inputs
-after running remove_duplicates.py on file1.csv and file2.csv, output.csv will contain the lines from file1 with all lines from file2 removed.
+##Find Duplicates
+###How to Run
+	python find_duplicates.py
+###What it does
+find_duplicates.py takes the list from file1.csv and the list from file2.csv and prints any value that appear in the first column of both file1.csv and file2.csv
+#Remove Duplicates
+###How to Run
+		python remove_duplicates.py
+###What it does
+remove_duplicates.py takes the list from file1.csv and the list from file2.csv and prints data from file1.csv into output.csv with all values in file2.csv removed.
+##Possible errors csv encoding
+Need to use UTF-8 when saving the csv files. In libre office make sure the file format is UTF-8
